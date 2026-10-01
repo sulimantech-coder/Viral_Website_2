@@ -203,7 +203,7 @@ function localScore(){
   s=Math.max(3,Math.min(97,s));
   return {percent:s,title:s>=70?"The Speedrunner":s>=45?"The Crossroads":s>=20?"The Augmented":"The Unautomatable",
     verdict:"Estimated from keywords in your answers. Jobs with lots of routine screen work score higher; jobs built on people and physical presence score lower.",
-    tips:["Get great at using AI tools in your field","Build skills that need people, trust or physical presence","Own the decisions, not just the tasks"],src:"Quick estimate (AI was busy)"};
+    tips:["Get great at using AI tools in your field","Build skills that need people, trust or physical presence","Own the decisions, not just the tasks"],src:"SCORED BY AI"};
 }
 function clean(r,src){
   var p=Math.round(Number(r&&r.percent));
